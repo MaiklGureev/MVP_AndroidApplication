@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MVP_AndroidApplication</string>
+    <string name="Authorization">Authorization</string>
+    <string name="Login">Email</string>
+    <string name="Password">Password</string>
+    <string name="Registration">Registration</string>
+    <string name="Age">Age</string>
+    <string name="Name">User name</string>
+    <string name="AboutUser">About user</string>
+    <string name="Enter">Enter</string>
+    <string name="Exit">Exit</string>
+    <string name="Edit">Edit user</string>
+    <string name="Delete">Delete user</string>
+</resources>

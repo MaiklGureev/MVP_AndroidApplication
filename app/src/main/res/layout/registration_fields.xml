@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        style="@style/EditText"
+        android:hint="@string/Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_text_age"
+        style="@style/EditText"
+        android:hint="@string/Age"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edit_text_login"
+        style="@style/EditText"
+        android:hint="@string/Login"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edit_text_password"
+        style="@style/EditText"
+        android:hint="@string/Password"
+        android:inputType="text" />
+
+</LinearLayout>

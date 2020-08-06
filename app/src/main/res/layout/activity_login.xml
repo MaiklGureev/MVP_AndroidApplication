@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinerLayoutPreset"
+    tools:context=".login.LoginActivity">
+
+    <TextView
+        style="@style/TitleText"
+        android:text="@string/Authorization" />
+
+    <EditText
+        android:id="@+id/edit_text_login"
+        style="@style/EditText"
+        android:hint="@string/Login"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edit_text_password"
+        style="@style/EditText"
+        android:hint="@string/Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button_authorization"
+        style="@style/Button"
+        android:text="@string/Enter"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/button_registration"
+        style="@style/Button"
+        android:text="@string/Registration"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>

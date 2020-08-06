@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinerLayoutPreset"
+    tools:context=".registration.RegistrationActivity">
+
+    <TextView
+        style="@style/TitleText"
+        android:text="@string/Registration"/>
+
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/registration_fields"
+        />
+
+
+    <Button
+        android:id="@+id/button_registration"
+        style="@style/Button"
+        android:text="@string/Registration"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>
